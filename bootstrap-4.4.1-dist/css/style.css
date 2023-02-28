@@ -1,0 +1,139 @@
+body{
+
+	background: url("images/pink.jpg") no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+#container{
+	height: 100vh;
+	background-color: ;
+}
+.header{
+	background-color: ;
+  	padding: 20px; 
+}
+
+	.hc1{
+		height: auto;
+	}
+		#logolink{	
+			text-decoration: none;
+		}
+			#logoname{
+				font-family: "Times New Roman", Times, serif;
+				font-size: 4vw;
+				color: rgba(0,0,0,0.8);
+				display: inline-block;
+			}
+
+
+
+	.hc2{
+		height: auto;
+	}
+		.lsl{
+			border-right: 1px solid black;
+		}
+			#login_link{
+				color: DarkOliveGreen;
+				text-decoration: none;
+			}
+			#login_link:hover > #login_name{
+				color: green;
+				font-weight: bold;
+			}
+				#login_name{
+					font-size: 2vw;
+					font-style: italic;
+				}
+
+		.lsr{
+			border-left: 1px solid black;
+		}
+			#signup_link{
+				color: FireBrick;
+				text-decoration: none;
+			}
+			#signup_link:hover > #signup_name{
+				color: red;
+				font-weight: bold;
+			}
+				#signup_name{
+					font-size: 2vw;
+					font-style: italic;
+				}
+
+
+
+
+.content{
+	background-color: green;
+	padding: 20px;
+}
+
+	.cc1{
+		background-color: ;
+		height: auto;
+	}
+
+	.cc2{
+		background-color: ;
+		height: auto;
+	}
+		.search_c1{
+			background-color: ;
+			height: auto;
+		}
+		.search_c2{
+			background-color: ;
+			height: auto;
+		}
+			.form-container{	
+				background: rgba(0,0,0,0.7);
+				padding: 30px;
+				border-radius: 10px;
+				box-shadow: 0px 0px 10px 0px #000;
+			}
+				#citychoose,#typeofjob{
+
+				}
+		.search_c3{
+			background-color: ;
+			height: 200px;
+		}
+
+
+
+
+#footer{
+	background: rgba(0,0,0,0.7);
+
+}
+
+
+
+/*													Login_page										*/
+
+
+.login_box{
+	padding: 100px;
+}
+
+.email_pass{
+	background-color: ;
+	padding: 20px;
+}
+	.ep2{
+		background-color: ;
+		padding: 20px;
+	}
+		#email{
+			font-weight: bold;
+		}
+		#password{
+			font-weight: bold;
+
+		}

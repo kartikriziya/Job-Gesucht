@@ -1,0 +1,1489 @@
+/*body{
+
+	background: url("images/pink.jpg") no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}*/
+
+
+.valdation_error_icon{
+	animation: error_icon 0.7s linear infinite;
+}
+@keyframes error_icon{
+	from {color: white; border-color: white;}
+	to {color: Tomato; border-color: Tomato;}
+}
+.valdation_error_border{
+	animation: error_border 0.7s linear infinite;
+}
+@keyframes error_border{
+	from {border-color: white;}
+	to {border-color: Tomato;}
+}
+.incorrect_otp_change_password, #expired_otp{
+	animation: incorrect_otp 1s linear infinite;
+}
+@keyframes incorrect_otp{
+	from {color: red; }
+	to {color: Tomato; }
+}
+
+@keyframes job_image{
+	from {color: white; }
+	to {color: Tomato; }
+}
+
+#login_error, #nehmer_geber_error, #send_otp_error, #verification_error, #password_error, #job_post_error,
+ #select_job_error, #send_application_error, #application_availability_error, #apply_again_success_status, #empty_application_error, #contact_error{
+	display: none; 
+	color: Tomato; 
+	background-color: transparent; 
+	border: none;
+}
+#verification_otp_timer, #verification_otp_time{
+	display: ; 
+	color: black; 
+	background-color: transparent; 
+	border: none;
+}
+
+
+
+
+
+													@media (max-width: 576px) { /* extra-small */
+#logoname{
+	font-size: 30px;
+}
+
+	#login_name{
+		font-size: 15px;
+	}
+	#signup_name{
+		font-size: 15px;
+	}
+
+#citychoose{
+	font-size: 15px;
+}
+#typeofjob{
+	font-size: 15px;
+}
+#searchbtn{
+	font-size: 15px;
+}
+
+	#profile_dropdown_xs{
+		display: block;
+	}
+	#profile_dropdown_sm{
+		display: none;
+	}
+
+
+	#email_icon, #password_icon, #login_email,#login_password,#signup_email, #signup_otp, #signup_password1, #signup_password2,
+		 #forgot_password_email, #forgot_password_otp, #forgot_password_password1, #forgot_password_password2, #contact_to_email, #contact_sub, #contact_message{
+		font-size: 15px;
+	}
+	#arbeitnehmer_buttontag, #arbeitgeber_buttontag{
+		height: 18px;
+		width: 10px;
+	}
+		#arbeitnehmer_nametag, #arbeitgeber_nametag{
+			font-size: 15px;
+		}
+	#forget_password,#send_otp_againbtn,#show_password_label,
+	#login_error, #nehmer_geber_error, #send_otp_error, #verification_error, #password_error, #job_post_error,
+	 #select_job_error, #send_application_error, #application_availability_error, #apply_again_success_status, #empty_application_error,
+	  #verification_otp_timer, #verification_otp_time, #contact_error{
+		font-size: 12px;
+	}
+	
+
+
+
+	#user_name{
+		font-size: 20px;
+		line-height: 2.2; 
+	}
+	#profile_details h5{
+		font-size: 15px; 
+	}
+
+	#changeprofile, #user_first-name, #user_last-name, #user_street-name, #user_house-number, #user_pincode, #user_city, #user_country,
+	 #dob_span, #day, #month, #year, #user_email, #phone_icon, #country_code, #user_phone{
+		font-size: 13px; 
+	}
+	#user_education, #user_experience, #user_experience_plus, #user_firma, #user_dauer, #tbody{
+		font-size: 13px; 
+	}
+		#thead{
+			font-size: 14px;
+		}
+	#total_job_likes, #total_job_likes_numbers
+	{
+		font-size: 16px;
+	}
+	#user_aboutme{
+		font-size: 13px;
+	}
+	#otp, #enterotp, #newpassword, #verifypassword{
+		font-size: 13px;
+	}
+		#given_email, #otp_timer, #new_otp, #verified{
+			font-size: 13px !important;
+		}
+
+
+
+
+
+	#firma_name, #arbeitgeber, #post_countrycode, #arbeitgeber_phone, #arbeitgeber_email, #strasse,
+	#geschaft_nummer, #postleitzahl, #stadt, #land, #post_typeofjob{
+		font-size: 13px;
+	}
+	.job_img_choose, .job_detail, .job_text_applied{
+		opacity: 1;
+	}
+
+
+
+	
+	#back, #like, #save{
+		font-size: 20px;
+	}
+	#change_city, #chnage_typeofjob, #job_application{
+		font-size: 13px;
+	}
+	#job_selected_name{
+		font-size: 30px;
+	}
+	#job_selected_extra-div{
+		display: none;
+	}
+	#job_selected_paragraph{
+		font-size: 13px; 
+		color: black;
+	}
+	#job_selected_label{
+		font-size: 15px;
+	}
+	#job_selected_address{
+		font-size: 12px;
+	}
+	.job_text,.job_text_applied{
+		font-size: 10px;
+	}
+
+
+
+
+
+	
+
+	
+
+	#footer_title{
+		font-size: 20px;
+		text-align: center;
+	}
+	#footer_link{
+		font-size: 10px;
+		text-align: center;
+	}
+	#copyright{
+		font-size: 10px;
+		text-align: center;
+	}
+	#footer_address{
+		font-size: 10px;
+		text-align: center;
+	}
+	#footer_phnumber{
+		font-size: 10px;
+		text-align: center;
+	}
+	#footer_email{
+		font-size: 10px;
+		text-align: center;
+	}
+	#footer_about_title{
+		font-size: 15px;
+		text-align: center;
+	}
+	#footer_about{
+		font-size: 10px;
+		text-align: center;
+	}
+	#footer_social{
+		font-size: 10px;
+		text-align: center;
+	}
+
+#carousel_row{
+	display: none;
+}
+}
+
+
+													@media (min-width: 576px) { /* small */
+#logoname{
+	font-size: 35px;
+}
+
+	#login_name{
+		font-size: 15px;
+	}
+	#signup_name{
+		font-size: 15px;
+	}
+
+#citychoose{
+	font-size: 16px;
+}
+#typeofjob{
+	font-size: 16px;
+}
+#searchbtn{
+	font-size: 16px;
+}
+
+	#profile_dropdown_xs{
+		display: none;
+	}
+	#profile_dropdown_sm{
+		display: block;
+	}
+
+	#email_icon, #password_icon, #login_email,#login_password,#signup_email, #signup_otp, #signup_password1, #signup_password2,
+		 #forgot_password_email, #forgot_password_otp, #forgot_password_password1, #forgot_password_password2, #contact_to_email, #contact_sub, #contact_message{
+		font-size: 16px;
+	}
+	#arbeitnehmer_buttontag, #arbeitgeber_buttontag{
+		height: 19px;
+		width: 11px;
+	}
+		#arbeitnehmer_nametag, #arbeitgeber_nametag{
+			font-size: 16px;
+		}
+	#forget_password,#send_otp_againbtn,#show_password_label,
+	#login_error, #nehmer_geber_error, #send_otp_error, #verification_error, #password_error, #job_post_error,
+	 #select_job_error, #send_application_error, #application_availability_error, #apply_again_success_status, #empty_application_error,
+	  #verification_otp_timer, #verification_otp_time, #contact_error{
+		font-size: 14px;
+	}
+
+
+
+	
+
+
+	#user_name{
+		font-size: 20px;
+		line-height: 2.2; 
+	}
+	#profile_details h5{
+		font-size: 15px; 
+	}
+
+	#changeprofile, #user_first-name, #user_last-name, #user_street-name, #user_house-number, #user_pincode, #user_city, #user_country,
+	 #dob_span, #day, #month, #year, #user_email, #phone_icon, #country_code, #user_phone{
+		font-size: 15px; 
+	}
+	#user_education, #user_experience, #user_experience_plus, #user_firma, #user_dauer, #tbody{
+		font-size: 15px; 
+	}
+		#thead{
+			font-size: 16px;
+		}
+	#total_job_likes, #total_job_likes_numbers
+	{
+		font-size: 19px;
+	}
+	#user_aboutme{
+		font-size: 15px;
+	}
+	#otp, #enterotp, #newpassword, #verifypassword{
+		font-size: 15px;
+	}
+		#given_email, #otp_timer, #new_otp, #verified{
+			font-size: 15px !important;
+		}
+
+
+
+
+
+	#firma_name, #arbeitgeber, #post_countrycode, #arbeitgeber_phone, #arbeitgeber_email, #strasse,
+	#geschaft_nummer, #postleitzahl, #stadt, #land, #post_typeofjob{
+		font-size: 15px;
+	}
+	.job_img_choose, .job_detail, .job_text_applied{
+		opacity: 0;
+	}
+
+
+	
+	#back, #like, #save{
+		font-size: 23px;
+	}
+	#change_city, #chnage_typeofjob, #job_application{
+		font-size: 15px;
+	}
+	#job_selected_name{
+		font-size: 30px;
+	}
+	#job_selected_extra-div{
+		display: none;
+	}
+	#job_selected_paragraph{
+		font-size: 15px; 
+		color: black;
+	}
+	#job_selected_label{
+		font-size: 17px;
+	}
+	#job_selected_address{
+		font-size: 14px;
+	}
+	.job_text,.job_text_applied{
+		font-size: 11px;
+	}
+
+
+
+
+
+	
+
+	#footer_title{
+		font-size: 22px;
+	}
+	#footer_link{
+		font-size: 12px;
+	}
+	#copyright{
+		font-size: 12px;
+	}
+	#footer_address{
+		font-size: 12px;
+	}
+	#footer_phnumber{
+		font-size: 12px;
+	}
+	#footer_email{
+		font-size: 12px;
+	}
+	#footer_about_title{
+		font-size: 17px;
+	}
+	#footer_about{
+		font-size: 12px;
+	}
+	#footer_social{
+		font-size: 12px;
+	}
+
+
+
+ 
+}
+
+
+													@media (min-width: 768px) { /* medium */
+#logoname{
+	font-size: 40px;
+}
+
+	#login_name{
+		font-size: 17px;
+	}
+	#signup_name{
+		font-size: 17px;
+	} 
+
+#citychoose{
+	font-size: 17px;
+}
+#typeofjob{
+	font-size: 17px;
+}
+#searchbtn{
+	font-size: 17px;
+}
+
+	#profile_dropdown_xs{
+		display: none;
+	}
+	#profile_dropdown_sm{
+		display: block;
+	}
+
+	#email_icon, #password_icon, #login_email,#login_password,#signup_email, #signup_otp, #signup_password1, #signup_password2,
+		 #forgot_password_email, #forgot_password_otp, #forgot_password_password1, #forgot_password_password2, #contact_to_email, #contact_sub, #contact_message{
+		font-size: 17px;
+	}
+	#arbeitnehmer_buttontag, #arbeitgeber_buttontag{
+		height: 20px;
+		width: 12px;
+	}
+		#arbeitnehmer_nametag, #arbeitgeber_nametag{
+			font-size: 17px;
+		}
+	#forget_password,#send_otp_againbtn,#show_password_label,
+	#login_error, #nehmer_geber_error, #send_otp_error, #verification_error, #password_error, #job_post_error,
+	 #select_job_error, #send_application_error, #application_availability_error, #apply_again_success_status, #empty_application_error,
+	  #verification_otp_timer, #verification_otp_time, #contact_error{
+		font-size: 14px;
+	}
+	
+
+
+
+	#user_name{
+		font-size: 20px;
+		line-height: 2.2; 
+	}
+	#profile_details h5{
+		font-size: 15px; 
+	}
+
+	#changeprofile, #user_first-name, #user_last-name, #user_street-name, #user_house-number, #user_pincode, #user_city, #user_country,
+	 #dob_span, #day, #month, #year, #user_email, #phone_icon, #country_code, #user_phone{
+		font-size: 15px; 
+	}
+	#user_education, #user_experience, #user_experience_plus, #user_firma, #user_dauer, #tbody{
+		font-size: 15px; 
+	}
+		#thead{
+			font-size: 16px;
+		}
+	#total_job_likes, #total_job_likes_numbers
+	{
+		font-size: 19px;
+	}
+	#user_aboutme{
+		font-size: 15px;
+	}
+	#otp, #enterotp, #newpassword, #verifypassword{
+		font-size: 15px;
+	}
+		#given_email, #otp_timer, #new_otp, #verified{
+			font-size: 15px !important;
+		}
+
+
+
+
+
+	#firma_name, #arbeitgeber, #post_countrycode, #arbeitgeber_phone, #arbeitgeber_email, #strasse,
+	#geschaft_nummer, #postleitzahl, #stadt, #land, #post_typeofjob{
+		font-size: 15px;
+	}
+	.job_img_choose, .job_detail, .job_text_applied{
+		opacity: 0;
+	}
+
+
+	
+	#back, #like, #save{
+		font-size: 25px;
+	}
+	#change_city, #chnage_typeofjob, #job_application{
+		font-size: 15px;
+	}
+	#job_selected_name{
+		font-size: 30px;
+	}
+	#job_selected_extra-div{
+		display: none;
+	}
+	#job_selected_paragraph{
+		font-size: 15px; 
+		color: black;
+	}
+	#job_selected_label{
+		font-size: 17px;
+	}
+	#job_selected_address{
+		font-size: 14px;
+	}
+	.job_text,.job_text_applied{
+		font-size: 12px;
+	}
+
+
+
+
+
+	#footer_title{
+		font-size: 23px;
+	}
+	#footer_link{
+		font-size: 13px;
+	}
+	#copyright{
+		font-size: 13px;
+	}
+	#footer_address{
+		font-size: 13px;
+	}
+	#footer_phnumber{
+		font-size: 13px;
+	}
+	#footer_email{
+		font-size: 13px;
+	}
+	#footer_about_title{
+		font-size: 18px;
+	}
+	#footer_about{
+		font-size: 13px;
+	}
+	#footer_social{
+		font-size: 14px;
+	}
+
+
+
+
+}
+													@media (min-width: 992px) { /* large */
+#logoname{
+	font-size: 45px;
+}
+
+	#login_name{
+		font-size: 19px;
+	}
+	#signup_name{
+		font-size: 19px;
+	}  
+
+#citychoose{
+	font-size: 18px;
+}
+#typeofjob{
+	font-size: 18px;
+}
+#searchbtn{
+	font-size: 18px;
+}
+
+	#profile_dropdown_xs{
+		display: none;
+	}
+	#profile_dropdown_sm{
+		display: block;
+	}
+
+	#email_icon, #password_icon, #login_email,#login_password,#signup_email, #signup_otp, #signup_password1, #signup_password2,
+		 #forgot_password_email, #forgot_password_otp, #forgot_password_password1, #forgot_password_password2, #contact_to_email, #contact_sub, #contact_message{
+		font-size: 18px;
+	}
+	#arbeitnehmer_buttontag, #arbeitgeber_buttontag{
+		height: 21px;
+		width: 13px;
+	}
+		#arbeitnehmer_nametag, #arbeitgeber_nametag{
+			font-size: 17px;
+		}
+	#forget_password,#send_otp_againbtn,#show_password_label,
+	#login_error, #nehmer_geber_error, #send_otp_error, #verification_error, #password_error, #job_post_error,
+	 #select_job_error, #send_application_error, #application_availability_error, #apply_again_success_status, #empty_application_error,
+	  #verification_otp_timer, #verification_otp_time, #contact_error{
+		font-size: 15px;
+	}
+	
+
+
+	#user_name{
+		font-size: 23px;
+		line-height: 2.2; 
+	}
+	#profile_details h5{
+		font-size: 20px; 
+	}
+
+	#changeprofile, #user_first-name, #user_last-name, #user_street-name, #user_house-number, #user_pincode, #user_city, #user_country,
+	 #dob_span, #day, #month, #year, #user_email, #phone_icon, #country_code, #user_phone{
+		font-size: 16px; 
+	}
+	#user_education, #user_experience, #user_experience_plus, #user_firma, #user_dauer, #tbody{
+		font-size: 16px; 
+	}
+		#thead{
+			font-size: 17px;
+		}
+
+	#total_job_likes, #total_job_likes_numbers
+	{
+		font-size: 23px;
+	}
+	#user_aboutme{
+		font-size: 16px;
+	}
+	#otp, #enterotp, #newpassword, #verifypassword{
+		font-size: 16px;
+	}
+		#given_email, #otp_timer, #new_otp, #verified{
+			font-size: 16px !important;
+		}
+
+
+
+
+
+	#firma_name, #arbeitgeber, #post_countrycode, #arbeitgeber_phone, #arbeitgeber_email, #strasse,
+	#geschaft_nummer, #postleitzahl, #stadt, #land, #post_typeofjob{
+		font-size: 16px;
+	}
+	.job_img_choose, .job_detail, .job_text_applied{
+		opacity: 0;
+	}
+
+
+	
+	#back, #like, #save{
+		font-size: 28px;
+	}
+	#change_city, #chnage_typeofjob, #job_application{
+		font-size: 16px;
+	}
+	#job_selected_name{
+		font-size: 35px;
+	}
+	#job_selected_extra-div{
+		display: block;
+	}
+	#job_selected_paragraph{
+		font-size: 16px; 
+		color: black;
+	}
+	#job_selected_label{
+		font-size: 18px;
+	}
+	#job_selected_address{
+		font-size: 15px;
+	}
+	.job_text,.job_text_applied{
+		font-size: 13px;
+	}
+
+
+
+
+
+	
+
+	
+
+	#footer_title{
+		font-size: 24px;
+	}
+	#footer_link{
+		font-size: 14px;
+	}
+	#copyright{
+		font-size: 14px;
+	}
+	#footer_address{
+		font-size: 14px;
+	}
+	#footer_phnumber{
+		font-size: 14px;
+	}
+	#footer_email{
+		font-size: 14px;
+	}
+	#footer_about_title{
+		font-size: 19px;
+	}
+	#footer_about{
+		font-size: 14px;
+	}
+	#footer_social{
+		font-size: 14px;
+	}
+
+
+
+}
+													@media (min-width: 1200px) { /* extra-large */
+#logoname{
+	font-size: 50px;
+}
+
+	#login_name{
+		font-size: 21px;
+	}
+	#signup_name{
+		font-size: 21px;
+	} 
+
+	.nav-item{
+	}
+
+#citychoose{
+	font-size: 19px;
+}
+#typeofjob{
+	font-size: 19px;
+}
+#searchbtn{
+	font-size: 19px;
+}
+
+	#profile_dropdown_xs{
+		display: none;
+	}
+	#profile_dropdown_sm{
+		display: block;
+	}
+
+	#email_icon, #password_icon, #login_email,#login_password,#signup_email, #signup_otp, #signup_password1, #signup_password2,
+		 #forgot_password_email, #forgot_password_otp, #forgot_password_password1, #forgot_password_password2, #contact_to_email, #contact_sub, #contact_message{
+		font-size: 19px;
+	}
+	#arbeitnehmer_buttontag, #arbeitgeber_buttontag{
+		height: 22px;
+		width: 14px;
+	}
+		#arbeitnehmer_nametag, #arbeitgeber_nametag{
+			font-size: 19px;
+		}
+	#forget_password,#send_otp_againbtn,#show_password_label,
+	#login_error, #nehmer_geber_error, #send_otp_error, #verification_error, #password_error, #job_post_error,
+	 #select_job_error, #send_application_error, #application_availability_error, #apply_again_success_status, #empty_application_error,
+	  #verification_otp_timer, #verification_otp_time, #contact_error{
+		font-size: 15px;
+	}
+	
+
+
+
+	
+	#user_name{
+		font-size: 25px;
+		line-height: 2.2; 
+	}
+	#profile_details h5{
+		font-size: 20px; 
+	}
+
+	#changeprofile, #user_first-name, #user_last-name, #user_street-name, #user_house-number, #user_pincode, #user_city, #user_country,
+	 #dob_span, #day, #month, #year, #user_email, #phone_icon, #country_code, #user_phone{
+		font-size: 16px; 
+	}
+	#user_education, #user_experience, #user_experience_plus, #user_firma, #user_dauer, #tbody{
+		font-size: 16px; 
+	}
+		#thead{
+			font-size: 17px;
+		}
+
+	#total_job_likes, #total_job_likes_numbers
+	{
+		font-size: 25px;
+	}
+	#user_aboutme{
+		font-size: 16px;
+	}
+	#otp, #enterotp, #newpassword, #verifypassword{
+		font-size: 16px;
+	}
+		#given_email, #otp_timer, #new_otp, #verified{
+			font-size: 16px !important;
+		}
+
+
+
+
+
+	#firma_name, #arbeitgeber, #arbeitgeber_phone, #arbeitgeber_email, #strasse,
+	#geschaft_nummer, #postleitzahl, #stadt, #land, #post_typeofjob{
+		font-size: 16px;
+	}
+	.job_img_choose, .job_detail, .job_text_applied{
+		opacity: 0;
+	}
+
+
+	
+	#back, #like, #save{
+		font-size: 30px;
+	}
+	#change_city, #chnage_typeofjob, #job_application{
+		font-size: 16px;
+	}
+	#job_selected_name{
+		font-size: 40px;
+	}
+	#job_selected_extra-div{
+		display: block;
+	}
+	#job_selected_paragraph{
+		font-size: 16px; 
+		color: black;
+	}
+	#job_selected_label{
+		font-size: 18px;
+	}
+	#job_selected_address{
+		font-size: 15px;
+	}
+	.job_text,.job_text_applied{
+		font-size: 14px;
+	}
+	
+
+	
+
+	
+
+	#footer_title{
+		font-size: 25px;
+	}
+	#footer_link{
+		font-size: 15px;
+	}
+	#copyright{
+		font-size: 15px;
+	}
+	#footer_address{
+		font-size: 15px;
+	}
+	#footer_phnumber{
+		font-size: 15px;
+	}
+	#footer_email{
+		font-size: 15px;
+	}
+	#footer_about_title{
+		font-size: 20px;
+	}
+	#footer_about{
+		font-size: 15px;
+	}
+	#footer_social{
+		font-size: 15px;
+	}
+
+
+
+}
+
+
+
+
+
+								/*-*-*-*-*-*-*--*-*-*-*    Header    *-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+.k-header{
+	background-color: ;
+	height: auto;
+	padding: 20px;
+}
+	#logolink{	
+		text-decoration: none;
+	}
+		#logoname{
+			font-family: fontawesome;
+			color: black;
+			display: inline-block;
+		}
+
+	#login_link{
+		color: white;
+		text-decoration: none;
+		background-color: #c8e6c9;
+	}
+		#login_link:hover > #login_name{
+			font-weight: bold;
+		}
+		#login_name:hover > i{
+			color: #8bc34a;
+		}
+
+	#signup_link{
+		color: white;
+		text-decoration: none;
+		background-color: #c8e6c9;
+	}
+		#signup_link:hover > #signup_name{
+			font-weight: bold;
+		}
+		#signup_name:hover > i{
+			color: #ef6c00;
+		}
+
+/*---- Navbar ----*/
+
+	.navbar{
+		margin: 20px;
+	}
+	#navbarNavDropdown{
+		background-color: ;
+	}
+		.navbar-nav{
+			background-color: ;
+			text-align: center;
+			margin-left: 25px;
+		}
+		#nav-item{
+			margin-right: 10px;
+		}
+		.nav-link{
+			color: white !important;
+		}
+		.nav-link:hover{
+			font-weight: bold;
+			color: black !important;
+		}
+		.dropdown-menu{
+			background-color: #e8f5e9 !important;
+			margin: 10px !important; 
+			text-align: center;
+		}
+			#navbarDropdownMenuLink{
+				font-weight: bold;
+				color: white;
+			}
+			#navbarDropdownMenuLink:hover{
+				color: black;
+			}
+			.dropdown-item:hover{
+				font-weight: bold;
+				background-color: #4caf50 !important;
+				color: white !important;
+			}
+
+
+
+
+
+								/*-*-*-*-*-*-*--*-*-*-*    Content    *-*-*-*-*-*-*-*-*-*-*-*-*-*/
+.k-masthead{
+
+	position: relative;
+	padding: 3rem 15px; 
+}
+/*---- index, login, signup ----*/
+	#index, #login, #arbeitnehmer_geber, #signup, #signup_verification, #signup_password,
+	 #reset, #reset_verification, #reset_password, #contact{	
+		background: rgba(0,0,0,0.7);
+		padding: 30px;
+		border-radius: 10px;
+		box-shadow: 0px 0px 10px 0px #000;
+	}
+		#citychoose{
+			background-color: #c8e6c9;
+			border: none;
+			border-bottom: 1px solid #1b5e20;
+			color: black;
+		}
+			#citychoose::placeholder{
+				color: black;
+			}
+			#citychoose:focus::placeholder{
+				color: grey;
+			}
+		#typeofjob{
+			background-color: #c8e6c9;
+			border: none;
+			border-bottom: 1px solid #1b5e20;
+			color: black;
+			cursor: pointer;
+		}
+		#searchbtn:hover{
+			font-weight: bold;
+		}
+
+
+		#arbeitnehmer_buttontag, #arbeitgeber_buttontag{
+			color: black;
+			cursor: pointer;
+		}
+			#arbeitnehmer_nametag, #arbeitgeber_nametag{
+				color: black;
+				cursor: pointer;
+			}
+				#arbeitnehmer_nametag:hover, #arbeitgeber_nametag:hover{
+					font-weight: bold;
+				}
+		#email_icon, #password_icon, #login_email, #login_password, #signup_email, #signup_otp, #signup_password1, #signup_password2,
+		 #forgot_password_email, #forgot_password_otp, #forgot_password_password1, #forgot_password_password2{
+			background-color: rgba(0,0,0,0.3);
+			border: none;
+			border-bottom: 1px solid #c8e6c9;
+			color: white;
+		}
+		#forget_login_password{
+			display: none;
+		}
+			#forget_password{
+				cursor: pointer;
+			}
+				#forget_password:hover{
+					font-weight: bold;
+					color: black;
+				}
+		#send_otp_againbtn,#show_password{
+			cursor: pointer;
+			margin-left: 10px;
+			color: white;
+			font-weight: bold;
+		}
+			#send_otp_againbtn:hover{
+				color: black;
+			}
+
+/***    carsousel    ***/
+	#carousel_row{
+		padding: 20px;
+	}
+		#carousel_box{
+			height: 300px;
+		}
+			#carouselimg{
+				height: 300px;
+			}
+
+
+
+
+
+
+/*---- User_profile ----*/
+/*left side*/
+	#user_profile_container{
+		background-color: #e8f5e9; 
+		box-shadow:20px 20px 50px 15px grey; 
+		height: auto;
+	}
+		#user_img{
+			background-color: ; 
+			margin-top: 2px;
+			height: 100px;
+			width: 100px;
+			border-radius: 50%;
+		}
+		#user_name{
+			font-weight: bold; 
+			color: black;
+			cursor: default;
+		}
+
+		#profile_detail_row{
+			background-color: #c8e6c9; 
+			padding: 10px;
+			margin: 20px;
+			cursor: pointer;
+			transition: padding-left 1s;
+		}
+		#profile_detail_row:hover{
+			background-color: #4caf50;
+			padding-left: 25px;
+		}
+		#profile_detail_row:hover > #profile_details{
+			color: white;
+		}
+			#profile_details h5{
+			}
+				#user_icons{
+					margin-right: 10px;
+				}
+
+
+/*right side*/
+		#user_first-name, #user_last-name, #user_street-name, #user_house-number, #user_pincode, #user_city, #user_country,
+		 #user_education, #user_firma, #user_dauer, #user_aboutme, #enterotp, #newpassword, #verifypassword{
+			background-color: #c8e6c9; 
+			text-align: center;
+		}
+		#dob_span{
+			background-color: #c8e6c9; 
+			color: black; 
+			font-weight: bold; 
+			border: 1px solid black;
+		}
+			#day{
+				background-color: #c8e6c9; 
+				border-left: 1px solid black; 
+				max-width: 80px;
+			}
+			#month{
+				background-color: #c8e6c9; 
+				border-left: 1px solid black; 
+				max-width: 110px;
+			}
+			#year{
+				background-color: #c8e6c9; 
+				border-left: 1px solid black; 
+				text-align: center;
+			}
+
+		#user_email{
+			background-color: #c8e6c9; 
+			cursor: not-allowed; 
+			text-align: center;
+		}
+		#country_code{
+			background-color: #c8e6c9; 
+			border-left: 1px solid black; 
+			cursor: pointer;
+		}
+			#user_phone{
+				background-color: #c8e6c9; 
+				border-left: 1px solid black; 
+				text-align: center;
+			}
+
+		#user_experience{
+			background-color: #4caf50; 
+			cursor: default; 
+			color: white; 
+			text-align: center;
+		}
+			#user_experience_plus{
+				background-color: #4caf50; 
+				text-align: center; 
+				font-weight: bold;
+			}
+			#user_experience_minus{
+				background-color: #c62828; 
+				text-align: center; 
+				font-weight: bold;
+				display: none;
+			}
+
+
+		#total_job_likes{
+			color: #0d47a1;
+			float: left; 
+			margin-top: 10px; 
+		}
+			#total_job_likes_numbers{
+				float: left; 
+				margin-top: 7px; 
+				margin-left: 3px;
+			}
+
+		#change_password_send_otp_againbtn, #expired_send_otp_again{
+			cursor: pointer;
+			margin-left: 10px;
+			color: #0069d9;
+			font-weight: bold;
+		}
+			#change_password_send_otp_againbtn:hover, #expired_send_otp_again:hover{
+				text-decoration: underline;
+			}
+
+
+/*---- Home ----*/
+	#job_row{
+		margin-bottom: .9rem; 
+		padding: 5px;
+	}
+		#job{
+			background-color: ; 
+			cursor: pointer;
+			padding: 10px;
+		}
+			.jobbox{
+				position: relative;
+				display: inline-block;
+				overflow: hidden;
+				max-width: 100%;
+				height: auto;
+			}
+				.job_img{
+					max-width: 100%;
+					display: block;
+				cursor: pointer;
+				}
+				.job_detail{
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					width: 100%;
+					height: 100%;
+					color: #fff;
+					cursor: pointer;
+				}
+				.job_applied{
+					background: rgba(0, 0, 0, 0.6);
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					width: 100%;
+					height: 100%;
+					color: #fff;
+					cursor: pointer;
+				}
+					.job_text,.job_text_applied{
+						background-color: ;
+						text-align: center;
+						display: inline-block;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+		.jobbox:hover .job_detail{
+			background: rgba(0, 0, 0, 0.6);
+			opacity: 1;
+		}
+			.jobbox:hover .job_text_applied{
+				opacity: 1;
+			}
+		.jobbox:hover{
+			border: 2px solid transparent;
+			border-radius: 50px 20px;
+		    box-shadow: 2px 2px 40px 5px black; 
+			transition:  0.6s ease-in-out;
+		    transform: scale(1.09);
+		}
+
+/*---- About ----*/
+
+	#about_heading_div:hover, #terms_heading_div:hover{
+		color: #1b5e20;
+		cursor: pointer;
+	}
+
+	#about_logo{
+		max-width: 100%;
+		display: block;
+	}
+	#about_steps{
+		background-color: rgba(0,0,0,0.1);
+		border-radius: 50px 20px;
+	}
+	#about_steps:hover{
+		background-color: rgba(0,0,0,0.2);
+	}
+		#about_steps:hover > b{
+			color: #1b5e20;
+		}
+
+
+
+/*---- Contact ----*/
+
+		
+		#contact_to_email,#contact_sub{
+			background-color: rgba(0,0,0,0.3);
+			border: none;
+			border-bottom: 1px solid #c8e6c9;
+			color: white;
+		}
+		#contact_message{
+			background-color: rgba(0,0,0,0.1); 
+			padding-top: 20px; 
+			padding-left: 30px;
+			border: none;
+			border-bottom: 1px solid #c8e6c9;
+			color: white;
+		}
+				
+
+/*---- Job_post ----*/
+
+		#firma_name, #arbeitgeber, #post_countrycode, #arbeitgeber_phone, #arbeitgeber_email, #strasse,
+		 #geschaft_nummer, #postleitzahl, #stadt, #land, #post_typeofjob{
+			background-color: rgba(0,0,0,0.1);
+			border: none;
+			border-bottom: 1px solid #1b5e20;
+			color: black;
+		}
+		#firma_name::placeholder, #arbeitgeber::placeholder, #post_countrycode::placeholder, #arbeitgeber_phone::placeholder,
+		 #arbeitgeber_email::placeholder, #strasse::placeholder, #geschaft_nummer::placeholder,
+		  #postleitzahl::placeholder, #stadt::placeholder, #land::placeholder, #post_typeofjob::placeholder{
+		 	color: black;
+		 }
+		#firma_name:focus::placeholder, #arbeitgeber:focus::placeholder, #arbeitgeber_phone:focus::placeholder,
+		 #arbeitgeber_email:focus::placeholder, #strasse:focus::placeholder, #geschaft_nummer:focus::placeholder,
+		  #postleitzahl:focus::placeholder, #stadt:focus::placeholder, #land:focus::placeholder{
+			background-color: #c8e6c9;
+			color: grey;
+		}
+		#post_typeofjob:focus, #post_countrycode:focus{
+			background-color: #c8e6c9;
+		}
+
+
+
+		.job_post{
+				position: relative;
+				display: inline-block;
+				overflow: hidden;
+				max-width: 100%;
+				height: auto;
+			}
+				#job_post_img{
+					max-width: 100%;
+					display: block;
+				}
+				.job_img_choose{
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					width: auto;
+					height: auto;
+					background: rgba(0, 0, 0, 0.6);
+					color: #fff;
+					margin-right: 20px;
+					margin-left: 20px;
+					margin-top: 20px;
+					margin-bottom: 20px;
+				}
+					.job_file{
+						background-color: ;
+						text-align: center;
+						font-size: 15px;
+						display: inline-block;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+						#job_img_file{
+							display: none;
+						}
+						#upload_job_img{
+							background-color: transparent; 
+							color: white; 
+							font-weight: 900;
+						}
+
+		.job_post:hover .job_img_choose{
+			opacity: 1;
+		}
+
+
+
+
+/*---- Job_application ----*/
+
+		#job_application_img{
+			position: relative;
+			display: inline-block;
+			overflow: hidden;
+			max-width: 100%;
+			height: auto;
+			border-radius: 50px 20px;
+		    transform: scale(1.09);
+		}
+		#back{
+			color: #1b5e20; 
+			margin-top: 6px;
+		}
+		#change_city, #chnage_typeofjob{
+			background-color: rgba(0,0,0,0.1);
+			border: none;
+			border-bottom: 1px solid #1b5e20;
+			color: black;
+		}
+		#change_city:focus, #chnage_typeofjob:focus{
+			background-color: #c8e6c9;
+		}
+		#change_city::placeholder{
+			color: black;
+		}
+		#job_selected_name{
+			font-weight: 900; 
+			color: black; 
+		}
+			#like_plain{
+				color: #0d47a1; 
+				float: right;  
+				cursor: pointer;
+			}
+				#like_fill{
+					color: #0d47a1; 
+					float: right;  
+					cursor: pointer;
+				}
+
+			#save_plain{
+				color: #FF8800; 
+				float: left; 
+				cursor: pointer; 
+			}
+				#save_fill{
+					color: #FF8800; 
+					float: left; 
+					cursor: pointer;
+				}
+
+		#job_selected_details{
+			 padding-left: 20px; 
+			 max-height: 40px;
+		}
+
+		#job_application{
+			background-color: rgba(0,0,0,0.1); 
+			padding-top: 20px; 
+			padding-left: 30px;
+			border: none;
+			border-bottom: 1px solid #1b5e20;
+			color: black;
+		}
+		#job_application::placeholder{
+			color: black;
+		}
+		#job_application:focus::placeholder{
+			background-color: #c8e6c9;
+			color: grey;
+		}
+
+
+
+
+
+
+								/*-*-*-*-*-*-*--*-*-*-*    Footer    *-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+.k-footer{
+	background-color: rgba(0,0,0,0.7);
+	padding: 5px;
+	font-size: 0.875rem;
+	width: 100%;
+}
+
+#overlay{	
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height:100%;
+	display: none;
+	background: rgba(0,0,0,0.6);
+}
+.cv-spinner {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+.spinner {
+	width: 40px;
+	height: 40px;
+	border: 4px #ddd solid;
+	border-top: 4px #1b5e20 solid;
+	border-radius: 50%;
+	animation: sp-anime 0.8s infinite linear;
+}
+@keyframes sp-anime {
+	100% { 
+		transform: rotate(360deg); 
+	}
+}
